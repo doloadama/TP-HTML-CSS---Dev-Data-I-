@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45233b28-1706-44e0-91b9-c30c31680f3d" name="Changes" comment="TP1">
+    <list default="true" id="45233b28-1706-44e0-91b9-c30c31680f3d" name="Changes" comment="TP1, TP2 as said in the README">
       <change afterPath="$PROJECT_DIR$/../TP-HTML-CSS---Dev-Data-I-/TP2_Liste.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TP-HTML-CSS---Dev-Data-I-/TP3_Lien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP-HTML-CSS---Dev-Data-I-/TP1-Paragraphe_et_titre.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TP-HTML-CSS---Dev-Data-I-/TP1-Paragraphe_et_titre.html" afterDir="false" />
@@ -88,13 +88,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710692452656</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TP1, TP2 as said in the README">
+      <option name="closed" value="true" />
+      <created>1710702467266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710702467266</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="README" />
     <MESSAGE value="TP1" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP1" />
+    <MESSAGE value="TP1, TP2 as said in the README" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP1, TP2 as said in the README" />
   </component>
 </project>
