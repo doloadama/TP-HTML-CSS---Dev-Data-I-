@@ -1,0 +1,44 @@
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header{
+        background-color: tomato;
+        height: 100px;
+        width: auto;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+    }
+
+    .vert1 {
+        background-color: green;
+        height: 300px;
+        width: 50px;
+    }
+
+    .vert2 {
+        background-color: green;
+        height: 300px;
+        width: 50px;
+    }
+
+    .bleu {
+        background-color: dodgerblue;
+        height: 200px;
+        width: 30px;
+    }
+
+    .footer{
+        background-color: darkslategray;
+        height: 110px;
+    }

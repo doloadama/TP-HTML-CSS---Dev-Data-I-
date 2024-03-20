@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>TP3</title>
-    <style>
-        .separator{
-            height: 10px;
+
+        .header {
+            background-color: red;
+            height: 70px;
+            margin-bottom: 5px;
         }
 
         .container{
@@ -14,6 +11,14 @@
             justify-content: space-around;
             padding: 10px;
         }
+
+        .second{
+            background-color: goldenrod;
+            height: 50px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
 
         .ligne3-1{
             height: 300px;
@@ -46,28 +51,11 @@
         .container2 {
             display: flex;
             align-items: center;
+            margin-bottom: 15px;
+            margin-top: 15px;
         }
-    </style>
-</head>
-<body>
-    <div class="container">
-    <div style="background-color: red; height: 90px; width: 100%;"></div>
-    <div class="separator"></div>
-    <div style="background-color: goldenrod; height: 70px; width: 100%;"></div>
-        <div class="separator"></div>
-        <div class="container2">
-            <div class="ligne3-1"></div>
-            <div class="ligne3-2"></div>
-        </div>
 
-        <div class="container2">
-            <div class="ligne4-1"></div>
-            <div class="ligne4-2"></div>
-        </div>
-        <div class="separator"></div>
-
-        <div style="background-color: deeppink; height: 70px; width: 100%;"></div>
-    </div>
-
-</body>
-</html>
+        .footer{
+            background-color: deeppink;
+            height: 90px;
+        }
