@@ -15,6 +15,7 @@
         align-items: center;
         margin: 5px;
         justify-content: space-around;
+        justify-content: space-between;
     }
 
     .box{
@@ -62,18 +63,18 @@
     .gris{
         background-color: darkgray;
         height: 20px;
-        width: 500px;
+        width: 25%;
     }
 
     .jaune{
         background-color: gold;
         height: 20px;
-        width: 860px;
+        width: 45%;
     }
 
     .vert{
         background-color: olivedrab;
-        height: 20px;
+        height: 30px;
         margin-left: 7px;
         margin-right: 7px;
 
@@ -81,23 +82,23 @@
 
     .trois_1{
         background-color: midnightblue;
-        height: 20px;
-        width: 800px;
-        margin-right: 700px;
+        height: 30px;
+        width: 60%;
         align-items: start;
     }
 
     .trois_2{
         background-color: darkcyan;
-        width: 70px;
-        height: 20px;
+        width: 20px;
+        height: 30px;
         margin-right: 5px;
         margin-left: 5px;
     }
 
     .bleu, .purple, .red, .yellow {
-    height: 150px;
-    width: 450px;
+    height: 160px;
+    width: 23%;
+
     }
 
     .bleu {
@@ -127,7 +128,7 @@
     .noir{
             border-radius: 5px;
             background-color: black;
-            border-color: 5px solid white;
+            border: 2px solid white;
             width: 120px;
             height: 40px;
             margin: 5px;
@@ -145,4 +146,5 @@
         height: 50px;
         margin: 05px;
         border-radius: 5px;
+        border: black solid;
     }

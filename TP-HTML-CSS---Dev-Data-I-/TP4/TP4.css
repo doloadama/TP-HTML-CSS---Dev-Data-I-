@@ -16,6 +16,13 @@
         margin-bottom: 10px;
     }
 
+    .header1{
+        background-color: goldenrod;
+        height: 50px;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
     .vert1 {
         background-color: green;
         height: 670px;

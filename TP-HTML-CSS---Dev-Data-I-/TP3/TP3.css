@@ -12,6 +12,11 @@
             padding: 10px;
         }
 
+        .containerbis{
+            justify-content: space-around;
+            padding: 120px;
+        }
+
         .second{
             background-color: goldenrod;
             height: 50px;
@@ -19,41 +24,35 @@
             margin-bottom: 10px;
         }
 
+        .ligne3-1, .ligne3-2, .ligne4-1, .ligne4-2 {
+            height: 230px;
+            width: 30%;
+        }
+
+
+
         .ligne3-1{
-            height: 300px;
-            width: 1000px;
-            margin-left: 500px;
             background-color: yellowgreen;
         }
         .ligne3-2 {
-            height: 300px;
-            width: 1000px;
-            margin-right: 500px;
             background-color: darkblue;
         }
 
         .ligne4-1{
-            height: 300px;
-            width: 1000px;
-            margin-left: 500px;
             background-color: purple;
         }
 
         .ligne4-2 {
-            height: 300px;
-            width: 1000px;
-            margin-right: 500px;
             background-color: red;
         }
 
         .container2 {
             display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-            margin-top: 15px;
+            padding-left: 500px;
         }
 
         .footer{
+            margin-top: 20px;
             background-color: deeppink;
-            height: 90px;
+            height: 70px;
         }
