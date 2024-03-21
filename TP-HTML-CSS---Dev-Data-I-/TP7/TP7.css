@@ -1,0 +1,144 @@
+
+    .header{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+
+    }
+
+    .grey{
+        background-color: lightgray ;
+        width: 20%;
+        height: 40px;
+        margin-right: auto;
+    }
+
+    .pink{
+        background-color: red;
+        width: 40%;
+        height: 40px;
+    }
+
+
+    .box1{
+        display: grid;
+        grid-template-rows: auto auto;
+        border: 1px solid black;
+        align-items: center;
+        padding: 5px;
+    }
+    .green1{
+        background-color: darkgreen;
+        height: 150px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+    }
+
+    .blue1{
+        background-color: deepskyblue;
+        height: 100px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .maron1{
+        background-color: saddlebrown;
+        width: 30%;
+        height: 300px;
+        margin-left: 35%;
+        margin-top: 5px;
+    }
+
+    .box2{
+        border: 1px black solid;
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    .box2-1{
+        border: 1px black solid;
+        display: flex;
+        padding: 5px;
+        place-content: space-between;
+        margin-top: 5px;
+    }
+
+    .green2{
+        background-color: darkseagreen;
+        height: 100px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blue2{
+        background-color: navy;
+        width: 20%;
+        height: 300px;
+        margin: auto;
+    }
+
+    .purple{
+        background-color: darkviolet;
+        width: 50%;
+        height: 100px;
+        margin: auto;
+    }
+
+    .green3{
+        background-color: darkseagreen;
+        height: 70px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blue3{
+        background-color: navy;
+        width: 20%;
+        height: 300px;
+        margin: auto;
+    }
+
+    .purple2{
+        background-color: darkviolet;
+        width: 50%;
+        height: 100px;
+        margin: auto;
+    }
+
+    .box3{
+        border: 1px black solid;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+
+    }
+
+    .maron2{
+        background-color: maroon;
+        margin: auto;
+        height: 70px;
+        width: 98%;
+    }
+
+    .grey2{
+        background-color: lightgray;
+        margin: 5px;
+        height: 300px;
+        width: 48.5%;
+    }
+
+    .noir{
+        background-color: black;
+        width: 100;
+        height: 70px;
+        margin: auto;
+    }
+
+
