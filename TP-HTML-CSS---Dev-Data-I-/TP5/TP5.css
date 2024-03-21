@@ -1,0 +1,141 @@
+
+    .body{
+        background-color: white;;
+    }
+
+    .header{
+        display: block;
+        align-items:center;
+        border: 1px solid black;
+        justify-content: space-around;
+    }
+
+    .prem{
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        justify-content: space-around;
+    }
+
+    .box{
+        margin: 10px;
+        display: block;
+        background-color: lightgray;
+        align-items:center;
+        border: 1px solid black;
+        justify-items: center;
+    }
+
+    .box1{
+        margin: 10px;
+        display: flex;
+        background-color: salmon;
+        align-items:center;
+        border: 1px solid black;
+        justify-content: space-around;
+    }
+
+    .boxb{
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        margin: 5px;
+    }
+
+    .boxb1{
+        display: flex;
+        border-radius: 5px;
+        background-color: yellow;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .boxb2{
+        display: flex;
+        background-color: darkcyan;
+        border-radius: 5px;
+        margin: 5px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .gris{
+        background-color: darkgray;
+        height: 20px;
+        width: 500px;
+    }
+
+    .jaune{
+        background-color: gold;
+        height: 20px;
+        width: 860px;
+    }
+
+    .vert{
+        background-color: olivedrab;
+        height: 20px;
+        margin: 15px;
+    }
+
+    .trois_1{
+        background-color: midnightblue;
+        height: 20px;
+        margin: 15px;
+    }
+
+    .trois_2{
+        background-color: darkcyan;
+        width: 700px;
+    }
+
+    .bleu, .purple, .red, .yellow {
+    height: 150px;
+    width: 450px;
+    }
+
+    .bleu {
+        background-color: blue;
+    }
+
+    .purple {
+        background-color: purple;
+    }
+
+    .red {
+        background-color: orangered;
+    }
+
+    .yellow {
+        background-color: darkgoldenrod;
+    }
+
+    .basr{
+        background-color: maroon;
+        height: 120px;
+        width: 1400px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+
+    .noir{
+            border-radius: 5px;
+            background-color: black;
+            border-color: 5px solid white;
+            width: 120px;
+            height: 40px;
+            margin: 5px;
+    }
+
+    .rouge{
+        background-color: red;
+        width: 200px;
+        height: 50px;
+    }
+
+    .brun{
+        background-color: beige;
+        width: 30px;
+        height: 50px;
+        margin: 05px;
+        border-radius: 5px;
+    }

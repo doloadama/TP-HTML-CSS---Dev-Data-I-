@@ -5,14 +5,13 @@
 
     .body{
         background-color: white;
-        min-height: 100vh;
         display: flex;
         flex-direction: column;
     }
 
     .header{
         background-color: tomato;
-        height: 100px;
+        height: 50px;
         width: auto;
         margin-bottom: 10px;
     }
@@ -33,20 +32,16 @@
     .bleu {
         background-color: dodgerblue;
         height: 570px;
-        width: 200px;
+        width: 120px;
         margin-right: 7px;
     }
 
-    .bleub {
-        background-color: dodgerblue;
-        height: 570px;
-        width: 200px;
-    }
+
 
     .violet {
         background-color: blueviolet;
         height: 100px;
-        width: 820px;
+        width: 500px;
     }
 
     .global{
@@ -73,10 +68,10 @@
 
     .rouge{
         background-color: darkred;
-        height: 130px;
+        height: 70px;
     }
 
     .footer{
         background-color: darkslategray;
-        height: 100px;
+        height: 70px;
     }
