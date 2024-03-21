@@ -74,18 +74,25 @@
     .vert{
         background-color: olivedrab;
         height: 20px;
-        margin: 15px;
+        margin-left: 7px;
+        margin-right: 7px;
+
     }
 
     .trois_1{
         background-color: midnightblue;
         height: 20px;
-        margin: 15px;
+        width: 800px;
+        margin-right: 700px;
+        align-items: start;
     }
 
     .trois_2{
         background-color: darkcyan;
-        width: 700px;
+        width: 70px;
+        height: 20px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
 
     .bleu, .purple, .red, .yellow {
