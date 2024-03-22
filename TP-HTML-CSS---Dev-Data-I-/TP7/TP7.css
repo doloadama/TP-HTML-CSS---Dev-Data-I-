@@ -1,43 +1,51 @@
 
     .header{
         display: flex;
-        justify-content: space-around;
-        padding: 5px;
-
+        justify-content: space-between;
+        padding: auto;
     }
 
     .grey{
-        background-color: lightgray ;
-        width: 20%;
-        height: 40px;
+        flex-grow: 1;
+        width: auto;
+        height: auto;
         margin-right: auto;
+        padding: auto;
     }
 
     .pink{
-        background-color: red;
-        width: 40%;
+        flex: 2;
+        flex-flow: column;
+        background-color: transparent;
+        margin-top: 10%;
+        width: auto;
         height: 40px;
+        padding-left: 20%;
+        tab-interval: 10px;
+        padding-bottom: 30px;
     }
 
 
     .box1{
         display: grid;
+        background-image: url("banner.png");
         grid-template-rows: auto auto;
-        border: 1px solid black;
         align-items: center;
-        padding: 5px;
+        padding: 20px;
     }
     .green1{
-        background-color: darkgreen;
+        flex: 1;
+        background-color: transparent;
         height: 150px;
         width: 60%;
-        margin-left: auto;
+        margin-left: 40%;
         margin-right: auto;
         margin-bottom: 5px;
     }
 
     .blue1{
-        background-color: deepskyblue;
+        flex: 2;
+        background-color: transparent;
         height: 100px;
         width: 60%;
         margin-left: auto;
@@ -45,73 +53,79 @@
     }
 
     .maron1{
-        background-color: saddlebrown;
+        background-color: transparent;
         width: 30%;
-        height: 300px;
-        margin-left: 35%;
-        margin-top: 5px;
+        max-height: 300px;
+        margin-left: 40%;
+        margin-bottom: 20px;
     }
 
     .box2{
-        border: 1px black solid;
+        display: grid;
         padding: 5px;
         margin-top: 5px;
     }
 
     .box2-1{
-        border: 1px black solid;
+        grid: 2;
         display: flex;
         padding: 5px;
         place-content: space-between;
         margin-top: 5px;
+        margin-bottom: 200px;
     }
 
     .green2{
-        background-color: darkseagreen;
+        grid: 1;
+        background-color: transparent;
+        text-align: center;
         height: 100px;
         width: 60%;
-        margin-left: auto;
+        padding-top: 300px;
+        margin-left: 400px;
         margin-right: auto;
     }
 
     .blue2{
-        background-color: navy;
         width: 20%;
-        height: 300px;
+        max-height: 50vh;
+        height: 370px;
         margin: auto;
+        margin-left: 10%;
+        position: absolute;
     }
 
     .purple{
-        background-color: darkviolet;
+        background-color: white;
         width: 50%;
         height: 100px;
-        margin: auto;
+        margin-left: 70%;
+        margin-top: 15%;
     }
 
     .green3{
-        background-color: darkseagreen;
+        background-color: transparent;
         height: 70px;
+        text-align: center center;
         width: 60%;
-        margin-left: auto;
+        margin-left: 50%;
         margin-right: auto;
     }
 
     .blue3{
-        background-color: navy;
         width: 20%;
-        height: 300px;
-        margin: auto;
+        height: 360px;
     }
 
     .purple2{
-        background-color: darkviolet;
-        width: 50%;
+        background-color: transparent;
+        width: 30%;
         height: 100px;
         margin: auto;
+        margin-left: 5%;
     }
 
     .box3{
-        border: 1px black solid;
         margin-top: 5px;
         margin-bottom: 5px;
         padding-left: 20px;
@@ -121,24 +135,53 @@
     }
 
     .maron2{
-        background-color: maroon;
-        margin: auto;
+        background-color: transparent;
+        padding: 20px;
         height: 70px;
         width: 98%;
+        margin-left: 48%;
     }
 
     .grey2{
-        background-color: lightgray;
+        flex: 1;
+        background-image: url("carte1.jpg");
+        background-position: center;
+        background-size: cover;
         margin: 5px;
         height: 300px;
         width: 48.5%;
+        padding: 20px;
+    }
+
+    .grey3{
+        flex: 2;
+        margin: 5px;
+        height: 300px;
+        width: 48.5%;
+        padding: 20px;
     }
 
     .noir{
-        background-color: black;
+        background-color: transparent;
+        align-items: center center;
         width: 100;
         height: 70px;
-        margin: auto;
+        margin-left: 45%;
     }
+
+    .conteneur {
+            text-align: center;
+        }
+
+    .mon-element {
+        color: black;
+        transition: color 0.3s ease;
+        display: inline-block;
+    }
+
+    .mon-element:hover {
+        color: orangered;
+    }
+
 
 
