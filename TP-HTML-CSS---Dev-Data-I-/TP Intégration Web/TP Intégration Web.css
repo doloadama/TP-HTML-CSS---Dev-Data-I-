@@ -1,0 +1,70 @@
+body{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.body{
+    background-color: white;
+}
+
+/*Header Ligne 1*/
+.header{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}
+
+.logo{
+    flex:1;
+    margin: auto;
+    width: 10%;
+    height: 5%;
+    position: absolute;
+}
+
+.menu{
+    flex: 2;
+    margin:auto;
+    width: 50%;
+    height: 5%;
+    position: absolute;
+}
+
+.Infos{
+    flex: 3;
+    margin:auto;
+    width: 20%;
+    height: 5%;
+    position: absolute;
+}
+
+.conteneur-gauche{
+    text-align: center;
+}
+.elements-gauche{
+    color: black;
+    transition: color 0.3s ease;
+    margin-right: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.elements-gauche:hover{
+    color: blue;
+}
+
+.conteneur-droite{
+    text-align: center;
+}
+.elements-gauche{
+    background-color: lightblue;
+    transition: color 0.3s ease;
+    margin-right: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.elements-gauche:hover{
+    background-color: blue;
+}
+/*---------------*/
