@@ -25,7 +25,9 @@ body{
 
 .menu{
     flex: 2;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 260px;
+    margin-right: 300px;
     width: 50%;
     height: 5%;
 }
@@ -37,7 +39,6 @@ body{
     margin-top: 20px;
     width: 50px;
     height: 5%;
-    position: absolute;
 }
 
 .conteneur-gauche{
@@ -68,7 +69,7 @@ body{
     background-color: #F0F5FF;
     color: #7EACF2;
     transition: color 0.3s ease;
-    margin-right: 5px;
+    font-size: 20px;
     padding: 10px;
     display: inline-block;
     border-radius: 7%;
@@ -120,8 +121,119 @@ body{
 .bloc-texte-second{
     display: block;
     flex-wrap: nowrap;
-    font-size: larger;
+    font-size: 30px;
     line-height: 20px;
 }
 /*Fin Ligne 2---------------------------------------------------*/
+
+/*Ligne 3-------------------------------------------------------*/
+
+.Ligne3{
+    display: flex;
+    margin: auto;
+    border: #8CB5F3 dashed;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.log1{
+    flex: 1;
+    width: 20%;
+    height: 250px;
+    border: #8CB5F3 solid;
+}
+
+.texte1{
+    flex: 2;
+    width: 35%;
+    height: 250px;
+    border: #8CB5F3 solid;
+}
+
+.texte2{
+    flex: 2;
+    width: 30%;
+    height: 250px;
+    border: #8CB5F3 solid;
+}
+
+.bloc-texte-2{
+    display: block;
+    font-size: xxx-large;
+    flex-wrap: nowrap;
+    line-height: 20px;
+}
+
+/* Fin Ligne 3--------------------------------------*/
+
+/* Ligne 4--------------------------------------*/
+
+
+.ligne4{
+    display: flex;
+    margin: auto;
+    border: #8CB5F3 double;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.box1, .box2, .box3 {
+    display: inline-block;
+    height: 500px;
+    width: 40%;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.box1 {
+    background-color: #F0F5FF;
+}
+
+.box2 {
+    background-color: #FEEDFA;
+}
+
+.box3 {
+    background-color: #F5F6F7;
+}
+
+.titre{
+    width: 100%;
+    font-size: xx-large;
+    margin-left: 20px;
+}
+
+.texte{
+    width: 100%;
+    font-size: x-large;
+    margin-left: 20px;
+    color: gray;
+}
+
+.image2{
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: darkgray;
+}
+
+.button1, .button2, .button3{
+    background-color: white;
+    color: #7EACF2;
+    transition: color 0.3s ease;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 7%;
+    margin-right: 20px;
+}
+
+.elements{
+    background-color: #0D64E5;
+    color: white;
+}
+
+
+
+
 
