@@ -1,6 +1,6 @@
 body{
-    margin-right: 10%;
     margin-left: 10%;
+    font-family: Verdana, sans-serif;
 }
 
 .body{
@@ -10,16 +10,17 @@ body{
 /*Header Ligne 1*/
 .header{
     display: flex;
-    margin: auto;
     flex-direction: row;
+    margin-bottom: 50px;
 }
 
 .logo{
     flex:1;
-    margin: auto;
+    margin: 20px;
     width: 10%;
     height: 5%;
-    position: fixed;
+    border-right: lightgray solid;
+    position: absolute;
 }
 
 .menu{
@@ -27,44 +28,100 @@ body{
     margin-left: 10px;
     width: 50%;
     height: 5%;
-    position: fixed;
 }
 
 .Infos{
     flex: 3;
-    margin:auto;
-    width: 20%;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 50px;
     height: 5%;
     position: absolute;
 }
 
 .conteneur-gauche{
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 .elements-gauche{
-    color: black;
+    color: darkgray;
     transition: color 0.3s ease;
-    margin-right: 5px;
+    font-size: 20px;
     padding: 10px;
     display: inline-block;
 }
 
 .elements-gauche:hover{
-    color: blue;
+    color :#8CB5F3;
 }
 
 .conteneur-droite{
-    text-align: center;
+    flex: 3;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .elements-droite{
-    background-color: lightblue;
+    background-color: #F0F5FF;
+    color: #7EACF2;
     transition: color 0.3s ease;
     margin-right: 5px;
     padding: 10px;
     display: inline-block;
+    border-radius: 7%;
+    margin-right: 5px;
 }
 
 .elements-droite:hover{
-    background-color: blue;
+    background-color: #0D64E5;
+    color: white;
 }
-/*---------------*/
+
+/*---------------* Fin ligne 1*/
+
+/*Ligne2*/
+
+.ligne2{
+    display: flex;
+    width: 1500px;
+    border: #8CB5F3 solid;
+}
+
+.block-text{
+    height: auto;
+    width: 60%;
+    background-color: transparent;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    border: #8CB5F3 solid;
+}
+
+.image1{
+    width: 40%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    border: #8CB5F3 solid;
+    background-image: url("UI Block/businessman-sitting-with-laptop-notebook-piggy-bank-funds-isolated-white-background 1.jpg");
+}
+
+.bloc-texte-titre{
+    display: block;
+    font-size: 40px;
+    flex-wrap: nowrap;
+    line-height: 20px;
+
+}
+
+.bloc-texte-second{
+    display: block;
+    flex-wrap: nowrap;
+    font-size: larger;
+    line-height: 20px;
+}
+/*Fin Ligne 2---------------------------------------------------*/
+
