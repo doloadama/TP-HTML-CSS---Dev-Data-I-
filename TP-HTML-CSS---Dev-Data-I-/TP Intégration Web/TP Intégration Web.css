@@ -3,14 +3,17 @@
     background-color: white;
     margin-left: 10%;
     font-family: Verdana, sans-serif;
-    margin-right: 10%;
+    padding: 12px 300px 12px 300px;
 }
 
 /*Header Ligne 1*/
 .header{
     display: flex;
     flex-direction: row;
+    width: 1920px;
+    height: 108px;
     margin-bottom: 50px;
+
 }
 
 .logo{
@@ -83,9 +86,9 @@
 }
 
 
-/*---------------* Fin ligne 1*/
+/*--------------------------------* Fin ligne 1  *------------------------------------/
 
-/*Ligne2*/
+/*--------------------------------* Début Ligne2 *----------------------------------*/
 
 .ligne2{
     display: flex;
@@ -282,11 +285,9 @@
 
 .ligne5{
     display: block;
-    padding: 20px;
+    padding: 12px 300px 12px 300px;
     background-color: #F5F6F7;
-    width: 100%;
     height: auto;
-    margin-bottom: 50px;
 }
 
 .en-tete{
@@ -371,7 +372,7 @@
 .ligne7{
     display: block;
     margin: auto;
-    padding: 20%;
+    padding: 12px 300px 12px 300px;
 }
 
 
