@@ -2,6 +2,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
+    border: #7EACF2 solid;
 }
 /* Barre de navigation */
 .navbar {
@@ -32,7 +33,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-content: space-between;
 }
 
 /* Boutons */
@@ -52,11 +52,14 @@ body {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .navbar {
     flex-direction: column;
   }
-
+    .logo {
+  font-size: 10px;
+  color: #000;
+}
   .nav-links {
     flex-direction: column;
     display: none;
@@ -71,35 +74,66 @@ body {
   }
 }
 
+/* Media Queries */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .navbar {
+    flex-direction: row;
+  }
+    .logo {
+  font-size: 10px;
+  color: #000;
+}
+
+  .nav-links {
+    flex-direction: row;
+    display: none;
+      font-size: 2vw;
+      display: none;
+  }
+
+  .nav-links a {
+    margin-bottom: 10px;
+  }
+
+  .bouton{
+      font-size: 5px;
+      display: none;
+  }
+}
+
 /*---------------* Fin ligne 1*/
 
-/*--------------------------------Ligne2-------------------------------------*/
+/*Ligne2*/
 
 .ligne2 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: center;
 }
 
 .block-text {
-    width: fit-content;
+    flex: 1;
+    width: 100%;
     height: 460px;
-    gap: 32px;
+    margin-top: 100px;
+    gap: 10px;
     opacity: 0px;
-    z-index: 2;
+    z-index: auto;
 }
 
 .image1 {
-    max-width: 100%;
-    height: auto;
-    margin-top: 50px;
+    flex: 2;
+    width: 1060px;
+    height: 980px;
+    background-image: url("UI Block/businessman-sitting-with-laptop-notebook-piggy-bank-funds-isolated-white-background 1.jpg");
+    background-size: auto;
 }
 
 .bloc-texte-titre {
 
     font-family: Lexend;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: -0.018em;
@@ -117,19 +151,45 @@ body {
     font-size: 1.25vw;
     line-height: 1;
 }
+
+.bouton1{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+/* Boutons */
+.button1 {
+    padding:10px;
+    background-color:#007bff;
+    color: #7EACF2;
+    border: solid;
+    font-size: x-large;
+    border-radius:5px;
+    justify-content: start;
+}
+
+.button1:hover {
+    background-color: #0D64E5;
+    color: #CEE0FA;
+}
+
 /* Media Queries for Ligne2 */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+
+    .ligne2{
+        flex-direction: column;
+    }
   .block-text {
     width: 100%;
-    margin: 0;
     text-align: center;
     padding: 20px;
-    box-sizing: border-box;
+      flex-direction: column;
   }
 
   .image1 {
-    width: 100%;
-    height: auto;
+      width: 100%;
+    background-size: cover;
   }
 
   .bloc-texte-titre {
@@ -142,6 +202,7 @@ body {
 
   .bloc-texte-tris {
     font-size: 1rem;
+      flex-wrap: wrap;
   }
 }
 
@@ -238,10 +299,13 @@ body {
 .box1, .box2, .box3 {
     display: inline-block;
     height: 500px;
+    width: 100%;
     border-radius: 20px;
     padding: 20px;
     box-sizing: border-box;
+    justify-content: center;
 }
+
 .box1 {
     background-color: #F0F5FF;
     width: 40%;
@@ -332,6 +396,9 @@ body {
 }
 
 @media (max-width: 900px) {
+    .ligne4{
+        flex-direction: column;
+    }
     .box1, .box2, .box3 {
         width: 100%;
     }
@@ -365,9 +432,10 @@ body {
     display: block;
     padding: 20px;
     background-color: #F5F6F7;
-    width: 100%;
+    width: fill;
     height: auto;
     margin-bottom: 50px;
+    align-content: center;
 }
 
 .en-tete{
@@ -382,11 +450,31 @@ body {
     margin-bottom: 100px;
 }
 
-.image3, .image4, .image5{
-    text-align: center;
-    max-width: 100%;
-    margin: 0 10px;
-}
+.image3{
+    width: 100%;
+      height: 464px;
+    margin: 10px auto;
+      background-image: url("UI Block/Project Photo.jpg");
+      background-size: cover;
+  }
+
+  .image4{
+    width: 100%;
+      height: 464px;
+    margin: 10px auto;
+      background-image: url("UI Block/Project Photo2.jpg");
+      background-size: cover;
+
+  }
+
+  .image5{
+      width: 100%;
+      height: 464px;
+    margin: 10px auto;
+      background-image: url("UI Block/Project Photo3.jpg");
+      background-size: cover;
+
+  }
 
 .box4{
     display: block;
@@ -407,15 +495,33 @@ body {
 
 
 @media screen and (max-width: 768px) {
+    .
   .image-en-ligne5 {
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 50px;
   }
 
-  .image3, .image4, .image5 {
-    width: 100%;
-    margin: 10px auto;
+  .image3{
+    width: fill;
+      height: fill;
+    margin: 5px auto;
+      background-image: url("UI Block/Project Photo.jpg");
+      background-size: cover;
+  }
+
+  .image4{
+    width: fill;
+      height: fill;
+    margin: 5px auto;
+      background-image: url("UI Block/Project Photo2.jpg");
+  }
+
+  .image5{
+      width: fill;
+      height: fill;
+    margin: 5px auto;
+      background-image: url("UI Block/Project Photo3.jpg");
   }
 
   .box4 {
@@ -435,30 +541,34 @@ body {
 .ligne6 {
     display: flex;
     margin-top: 5vh; /* Modifier la marge supérieure en 5vh pour qu'elle soit proportionnelle à la hauteur de la vue */
-    margin-right: 15%;
-    flex-direction: row;
-    text-align: center;
+    margin-bottom: 100px;
+    align-content: center;
+    border: #7FC884 solid;
+}
+
+.box-bis{
+    width: 40%;
+    display: block;
+    border: #7FC884 solid;
+    padding-left: 10px;
 }
 
 .texte3 {
-    flex: 1;
-    margin-left: 2.5%; /* Modifier la marge gauche en 2.5% pour qu'elle soit proportionnelle à la largeur de la vue */
+
     font-size: 2vh; /* Modifier la taille de la police en 2vh pour qu'elle soit proportionnelle à la hauteur de la vue */
     width: 60%;
     line-height: 1.5; /* Modifier la hauteur de ligne en unité sans dimension pour maintenir la relation avec la taille de la police */
-    border-left: 0.52vw solid #0D64E5; /* Convertir l'épaisseur de la bordure en vw */
+    border-left: 0.4vw solid #0D64E5; /* Convertir l'épaisseur de la bordure en vw */
     padding: 2vh; /* Modifier le rembourrage en 2vh pour qu'il soit proportionnel à la hauteur de la vue */
     height: auto;
 }
 
-.image6 {
-    flex: 2;
-    width: 10%; /* Modifier la largeur en 10% pour qu'elle soit proportionnelle à la largeur de la vue */
-    margin-right: 2.5%; /* Modifier la marge droite en 2.5% pour qu'elle soit proportionnelle à la largeur de la vue */
+.imaged {
+    width: 30%;
+    background-image: url("UI Block/Photo.jpg");
 }
 
 .titre3 {
-    flex: 1;
     width: 60%;
     font-size: 5vh; /* Modifier la taille de la police en 4vh pour qu'elle soit proportionnelle à la hauteur de la vue */
     text-align: start;
@@ -467,12 +577,12 @@ body {
 }
 
 /* Media query pour les écrans de moins de 600px */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px ) and (max-width:1024px) {
     .ligne6 {
         flex-direction: column;
     }
     .texte3, .image6 {
-        width: 100%;
+        width: fill;
     }
     .titre3 {
         font-size: 3vh; /* Modifier la taille de la police en 3vh pour qu'elle soit proportionnelle à la hauteur de la vue */
@@ -494,8 +604,10 @@ body {
 /* Ligne 7 */
 .ligne7 {
     display: block;
-    margin: auto;
+    margin-top: 100px;
     padding: 5%; /* Modifier le rembourrage en 5% pour le rendre proportionnel à la largeur de la vue */
+    align-content: center;
+    border: #7FC884 solid;
 }
 
 .en-tete2 {
@@ -503,19 +615,60 @@ body {
     font-size: 6vh; /* Modifier la taille de la police en 6vh pour la rendre proportionnelle à la hauteur de la vue */
 }
 
-.image6, .image7, .image8, .image9 {
-    text-align: center;
-    background-size: cover;
-    width: 90%; /* Modifier la largeur en 90% pour qu'elle soit proportionnelle à la largeur de la vue */
-    margin: 0 auto; /* Centrer horizontalement en utilisant la marge automatique */
-    margin-bottom: 20px;
+.image-en-ligne7{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-content: center;
+
 }
+.conteneur-image{
+    width: 100%; /* Modifier la largeur en 90% pour qu'elle soit proportionnelle à la largeur de la vue */
+    margin-bottom: 20px;
+    border: #7FC884 solid;
+}
+
+.image6{
+    width: 100%;
+    height: 424px;
+    background-image: url("UI Block/Photo.png");
+    background-size: contain;
+    border: #0D64E5 solid;
+    background-color: #7FC884;
+}
+
+.image7{
+    width: 100%;
+    height: 424px;
+    background-image: url("UI Block/Photo2.png");
+    background-size: cover;
+    background-color: #ffbad7;
+}
+
+.image8{
+    width: 100%;
+    height: 424px;
+    background-image: url("UI Block/Photo3.png");
+    background-size: cover;
+    background-color: #ffd473;
+}
+
+.image9{
+    width: 100%;
+    height: 424px;
+    background-image: url("UI Block/Photo4.png");
+    background-size: cover;
+    background-color: #71ffec;
+}
+
 
 .Nom {
     text-align: start;
     width: 100%;
     font-size: 3vh; /* Modifier la taille de la police en 3vh pour la rendre proportionnelle à la hauteur de la vue */
     margin-top: 2vh; /* Modifier la marge supérieure en 2vh pour la rendre proportionnelle à la hauteur de la vue */
+    background-image: url("UI Block/Photo3.png");
 }
 
 .Fonction {
@@ -523,6 +676,7 @@ body {
     width: 100%;
     font-size: 2.5vh; /* Modifier la taille de la police en 2.5vh pour la rendre proportionnelle à la hauteur de la vue */
     margin-top: 1vh; /* Modifier la marge supérieure en 1vh pour la rendre proportionnelle à la hauteur de la vue */
+    flex-wrap: nowrap;
 }
 
 .texte4 {
@@ -533,6 +687,26 @@ body {
     margin-bottom: 2vh; /* Modifier la marge inférieure en 2vh pour la rendre proportionnelle à la hauteur de la vue */
 }
 
+@media screen and (max-width: 600px){
+    .ligne7{
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .image6, .image7, .image8, .image9 {
+
+    margin-bottom: 20px;
+}
+    .image-en-ligne7 {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+
+}
+
 /*-----------------------Fin Ligne 7------------------------- */
 
 /*-----------------------Début Ligne 8-------------------------- */
@@ -541,9 +715,9 @@ body {
     display: flex;
     text-align: start;
     padding-left: 10%;
-    padding-right: 10%;
     padding-bottom: 10%;
-
+    width: 80%;
+    justify-content: space-between;
 }
 
 .texte5{
@@ -554,12 +728,16 @@ body {
     line-height: 1;
 
 }
-
+.conteneur-image1{
+    display: flex;
+    width: auto;
+    height: auto;
+}
 .image10{
     text-align: center;
     background-size: cover;
     width: 10%;
-    margin: 0 12px;
+    border: #7EACF2 solid;
 }
 
 @media only screen and (min-width: 600px) {
@@ -575,30 +753,29 @@ body {
 /* Ligne 9 */
 .ligne9 {
     display: flex;
-    width: 100%;
-    margin: auto;
-    padding: 5%;
+    width: fill;
+    padding: 2%;
     background-color: #061C3D;
-    text-align: start;
+    text-align: center;
+    border: #0D64E5 solid;
+    justify-content: space-between;
 }
 
 .image11 {
-    flex: 1;
-    text-align: center;
-    max-width: 50%;
-    margin-right: 20px; /* Ajout d'une marge entre l'image et le texte */
+    width: 38%;
+    height: 536px;
+    background-image: url("UI Block/902.png");
 }
 
 .block-texte9 {
-    flex: 1;
-    width: 100%;
+    width: 50%;
     padding: 2.5%;
 }
 
 .titre9 {
     text-align: left;
     color: #F5F6F7;
-    font-size: 4vw;
+    font-size: 2vw;
     line-height: 1;
     margin-top: 2vh;
 }
@@ -606,7 +783,7 @@ body {
 .texte9 {
     text-align: left;
     color: #F5F6F7;
-    font-size: 3vw;
+    font-size: 1vw;
     line-height: 1.5;
 }
 
@@ -629,11 +806,12 @@ body {
 
 /* Media queries pour les écrans de petite taille */
 @media only screen and (max-width: 600px) {
-    .image11 {
-        max-width: 100%; /* Définir une largeur maximale pour l'image */
+    .ligne9{
+        flex-direction: column;
     }
-
-
+    .image11 {
+        width: 10%;
+    }
 
     .titre9 {
         font-size: 1vw; /* Modifier la taille de la police en 6vw pourcentage de la largeur de la vue */
@@ -660,11 +838,13 @@ body {
     display: flex;
     margin: 2vw; /* Utiliser une marge relative en fonction de la largeur de la vue */
     justify-content: space-evenly;
+    border: #7EACF2 solid;
 }
 
 .colonne1 {
     display: block;
     margin-top: 2vw; /* Utiliser une marge relative en fonction de la largeur de la vue */
+    border: #7EACF2 solid;
 }
 
 .titre10 {
@@ -672,6 +852,7 @@ body {
     text-align: start;
     color: #6F7C8F;
     line-height: 1;
+    border: #7EACF2;
 }
 
 .texte10 {
@@ -679,12 +860,14 @@ body {
     font-size: 0.2vw; /* Utiliser une taille de police relative en fonction de la largeur de la vue */
     text-align: start;
     line-height: 1;
+    border: #7EACF2 solid;
 }
 
 .Liste {
     text-align: start;
     display: block;
     justify-content: space-between;
+    border: #7EACF2 solid;
 }
 
 .elements-liste {
