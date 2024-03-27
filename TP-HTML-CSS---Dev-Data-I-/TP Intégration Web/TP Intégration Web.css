@@ -3,12 +3,11 @@ body {
     margin-right: 10%;
     margin-top: 1%;
 }
-
 /* Barre de navigation */
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   padding: 10px 10px;
 }
 
@@ -31,8 +30,9 @@ body {
 
 .bouton{
     display: flex;
-    justify-content: space-evenly;
-    align-items: start;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Boutons */
@@ -40,6 +40,8 @@ body {
     padding:10px;
     background-color:#007bff;
     color:white;
+    border:none;
+    font-size: x-large;
     border-radius:5px;
     text-decoration: none;
 }
@@ -57,36 +59,41 @@ body {
 
   .nav-links {
     flex-direction: column;
+    display: none;
   }
 
   .nav-links a {
     margin-bottom: 10px;
   }
-}
 
+  .bouton{
+      display: none;
+  }
+}
 
 /*---------------* Fin ligne 1*/
 
-/*Ligne2*/
+/*--------------------------------Ligne2-------------------------------------*/
 
 .ligne2 {
     display: flex;
-    width: min-content;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 100px;
 }
 
 .block-text {
     width: fit-content;
     height: 460px;
-    margin-top: 80px;
-    left: 300px;
     gap: 32px;
     opacity: 0px;
+    z-index: 2;
 }
 
 .image1 {
     max-width: 100%;
     height: auto;
+    margin-top: 50px;
 }
 
 .bloc-texte-titre {
@@ -94,7 +101,7 @@ body {
     font-family: Lexend;
     font-size: 40px;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 20px;
     letter-spacing: -0.018em;
     text-align: left;
 
@@ -110,18 +117,45 @@ body {
     font-size: 1.25vw;
     line-height: 1;
 }
+/* Media Queries for Ligne2 */
+@media (max-width: 768px) {
+  .block-text {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
 
+  .image1 {
+    width: 100%;
+    height: auto;
+  }
 
+  .bloc-texte-titre {
+    font-size: 2.5rem;
+  }
+
+  .bloc-texte-second {
+    font-size: 1.2rem;
+  }
+
+  .bloc-texte-tris {
+    font-size: 1rem;
+  }
+}
 
 @media screen and (max-width: 768px) {
     .block-text {
         width: 100%;
     }
 
-    .image1 {
-        height: 30vh;
+    image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
     }
-
     .bloc-texte-titre {
         font-size: 4.5vw;
     }
@@ -299,6 +333,28 @@ body {
 
 @media (max-width: 900px) {
     .box1, .box2, .box3 {
+        width: 100%;
+    }
+
+    .titre{
+        font-size: x-large;
+    }
+
+    .texte{
+        font-size: medium;
+    }
+
+    .button1, .button2, .button3 {
+        width: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ligne4 {
+        flex-direction: column;
+    }
+
+    .button1, .button2, .button3 {
         width: 100%;
     }
 }
