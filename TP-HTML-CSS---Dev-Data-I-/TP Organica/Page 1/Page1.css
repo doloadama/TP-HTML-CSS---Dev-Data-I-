@@ -1,6 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 .conteneur-principal{
     display: block;
-    font-family: Roboto;
+    font-family: Roboto, serif;
 }
 
 /*Barre de Menu*/
@@ -34,7 +38,7 @@
     color: #274C5B;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
 }
 
 /*=======================================Ligne1=======================================*/
@@ -173,7 +177,7 @@
     height: 867px;
     top: 1900px;
     left: 100px;
-    gap: 0px;
+    gap: 0;
     opacity: 0px;
     background-image: url("Images1/Photo.png");
     background-size: contain;
@@ -194,7 +198,7 @@
 .texte2-ligne3{
     color: #274C5B;
     font-size: 5vw;
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
 }
 
 .texte3-ligne3{
@@ -327,7 +331,7 @@
 
 .bas-ligne4{
     display: flex;
-    justify-content: space-between;
+    align-content: center;
 }
 
 .cercle {
@@ -335,20 +339,269 @@
   height: 15.2vh;
   background: #F1F1F1;
   border-radius: 50%;
-    border: #7EB693 solid;
+    border: 3px #7EB693 solid;
     text-align: center;
-    padding:20px ;
-    border-spacing: 5px;
-
+    padding:5px ;
+    background-clip: content-box;
+    margin: auto;
 }
 
 .texte1-cercle-ligne4{
     font-size: xxx-large;
     color: #274C5B;
-    font-size-adjust: inherit;
+    font-size-adjust: auto;
     justify-content: center;
 }
 
 .texte2-cercle-ligne4{
     color: #274C5B;
+    font-size-adjust:auto;
 }
+
+/*=====================================================Ligne5=========================================================*/
+
+.ligne5{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin-top: 100px;
+    background-image: url("Images1/Photo-4.jpg");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
+    justify-content: right;
+    border: #061C3D solid;
+}
+
+.contenu-ligne5{
+    width: 53%;
+    height: 85%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    padding-top: 20px;
+    gap: 2px;
+    justify-content: start;
+    padding-left: 30px;
+}
+
+.texte1-ligne5{
+    color: #7FC884;
+    font-size-adjust: auto;
+    text-align: left;
+    font-size: x-large;
+    }
+
+.texte2-ligne5{
+    color: #274C5B;
+    text-align: left;
+}
+
+.texte3-ligne5{
+    color: #7FC884;
+    font-style: italic;
+    font-size-adjust: auto;
+    text-align: left;
+    font-size: xx-large;
+}
+
+.texte4-ligne5{
+    color: #274C5B;
+    font-style: normal;
+    font-size-adjust: auto;
+    text-align: left;
+    font-size: xxx-large;
+    line-height: 1vh;
+}
+
+/*=====================================================Ligne6=========================================================*/
+
+.ligne6{
+    display: flex;
+    margin-top: 10vh;
+    width: 100%;
+    height: 60vh;
+    background-color: #F1F8F4;
+    justify-content:space-evenly;
+    padding-top: 10vh;
+}
+
+.boite1-ligne6{
+    width: 30%;
+    height: 50vh;
+    background-image: url("Images1/1.png");
+    background-position: center;
+}
+
+.boite2-ligne6{
+    width: 30%;
+    height: 50vh;
+    background-image: url("Images1/2.png");
+    background-position: center;
+}
+
+.boite3-ligne6{
+    width: 30%;
+    height: 50vh;
+    background-image: url("Images1/3.png");
+    background-position: center;
+}
+
+/*=====================================================ligne7=========================================================*/
+.ligne7 {
+  display: flex;
+    justify-content: center;
+}
+
+.bloc-image-ligne7 {
+    display: flex;
+  width: 80%;
+  height: 30vh;
+  background-image: url("Images1/Photo-20.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+    justify-content: right;
+  align-items: center;
+    border-radius: 20px;
+}
+
+.texte-image-ligne7 {
+  width: 40%;
+  display: block;
+    font-size: xxx-large;
+  align-items: center;
+  justify-content: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.entree-ligne7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  border: 1px solid #0D64E5;
+  margin: auto;
+}
+
+.bouton-ligne7 {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  border-radius: 10px;
+  background-color: #274C5B;
+  color: white;
+  cursor: pointer;
+}
+
+.bouton-ligne7:hover {
+  background-color: #0D64E5;
+}
+
+input {
+  width: 80%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px rgba(0, 120, 255, 0.5);
+}
+
+/*=====================================================footer=========================================================*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.gauche-footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.gauche-footer h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.gauche-footer p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.gauche-footer a {
+  text-decoration: none;
+  color: #0066cc;
+  margin-right: 20px;
+}
+
+.pied-footer {
+  text-align: center;
+  margin-top: 50px;
+    padding-top: 5vh;
+  font-size: 1rem;
+    margin-bottom: 5vh;
+    border-image: url("Images1/Line.png") 20 round;
+    border-top: #B4A42C solid;
+}
+
+.droite-footer {
+  background-color: #f2f2f2;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icone-footer {
+  background-image: url("Images1/Logo.png");
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.texte1-droite-footer {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.sous-titre-droite-footer {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #666;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
