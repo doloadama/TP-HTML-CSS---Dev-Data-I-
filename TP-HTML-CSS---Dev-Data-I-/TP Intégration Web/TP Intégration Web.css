@@ -4,7 +4,6 @@ body {
     margin-top: 1%;
     border: #7EACF2 solid;
 }
-/* Barre de navigation */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -12,13 +11,16 @@ body {
   padding: 10px 10px;
 }
 
-/* Logo */
 .logo {
   font-size: 24px;
   color: #000;
 }
 
-/* Liens de navigation */
+.menu-button {
+  display: none;
+  cursor: pointer;
+}
+
 .nav-links {
   display: flex;
 }
@@ -30,36 +32,40 @@ body {
 }
 
 .bouton{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Boutons */
 .button {
-    padding:10px;
-    background-color:#007bff;
-    color:white;
-    border:none;
-    font-size: x-large;
-    border-radius:5px;
-    text-decoration: none;
+  padding:10px;
+  background-color:#007bff;
+  color:white;
+  border:none;
+  font-size: x-large;
+  border-radius:5px;
+  text-decoration: none;
 }
 
 .button:hover {
-    background-color: white;
-    color: #0D64E5;
+  background-color: white;
+  color: #0D64E5;
 }
 
-/* Media Queries */
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
   }
-    .logo {
-  font-size: 10px;
-  color: #000;
-}
+
+  .logo {
+    font-size: 10px;
+    color: #000;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
   .nav-links {
     flex-direction: column;
     display: none;
@@ -70,9 +76,14 @@ body {
   }
 
   .bouton{
-      display: none;
+    display: none;
+  }
+
+  #menu-checkbox:checked ~ .nav-links {
+    display: flex;
   }
 }
+
 
 /* Media Queries */
 @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -88,7 +99,6 @@ body {
     flex-direction: row;
     display: none;
       font-size: 2vw;
-      display: none;
   }
 
   .nav-links a {
@@ -124,7 +134,7 @@ body {
 
 .image1 {
     flex: 2;
-    width: 1060px;
+    width: fill;
     height: 980px;
     background-image: url("UI Block/businessman-sitting-with-laptop-notebook-piggy-bank-funds-isolated-white-background 1.jpg");
     background-size: auto;
@@ -132,10 +142,10 @@ body {
 
 .bloc-texte-titre {
 
-    font-family: Lexend;
+    font-family: Lexend, sans-serif;
     font-size: 30px;
     font-weight: 600;
-    line-height: 20px;
+    line-height: 40px;
     letter-spacing: -0.018em;
     text-align: left;
 
@@ -176,9 +186,8 @@ body {
 
 /* Media Queries for Ligne2 */
 @media (max-width: 600px) {
-
     .ligne2{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
   .block-text {
     width: 100%;
@@ -193,7 +202,7 @@ body {
   }
 
   .bloc-texte-titre {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 
   .bloc-texte-second {
@@ -489,7 +498,6 @@ body {
 
 .texte-bleu{
     color: #0D64E5;
-    text-align: left;
     text-align: center;
 }
 

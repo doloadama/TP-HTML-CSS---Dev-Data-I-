@@ -1,7 +1,6 @@
 .conteneur-principal{
     display: block;
     font-family: Roboto;
-    border: #7FC884 solid;
 }
 
 /*Barre de Menu*/
@@ -9,7 +8,6 @@
     display: flex;
     width: 95%;
     height: auto;
-    border: #7FC884 solid;
     margin: auto;
 }
 
@@ -22,14 +20,12 @@
     margin-bottom: auto;
     font-size: 2vw;
     color: #274C5B;
-    border: #7FC884 solid;
 }
 
 .logo{
     flex: 1;
     display: flex;
     margin: auto;
-    border: #0D64E5 solid;
     justify-content: normal;
 }
 
@@ -47,7 +43,6 @@
     width: 100%;
     height: 898px;
     top: 204px;
-    border: #7FC884 solid;
     margin-top: 50px;
 }
 
@@ -64,7 +59,6 @@
     display: block;
     width: 30vw;
     height: auto;
-    border: #7FC884 solid;
     margin-top: 30vh;
     margin-left: 7vw;
     justify-content: left;
@@ -107,35 +101,33 @@
 
 .ligne2{
     display: flex;
-    width: 1400;
+    width: 100%;
     height: 367;
-    border: #7FC884 solid;
-    margin: 150px;
-    justify-content: space-evenly;
+    margin-top:50px;
+    justify-content: center;
 }
 
 .bloc1-ligne2{
     border-radius: 10%;
-    width: 682,24;
+    width: 32vw;
     height: 367;
     background-image: url("Images1/background2.jpg");
     background-size: cover;
-    border: #7FC884 solid;
+    margin-right: 10px;
 }
 
 .bloc2-ligne2{
     border-radius: 10%;
-    width: 682,24;
+    width: 32vw;
     height: 367;
     background-image: url("Images1/background3.jpg");
     background-size: cover;
-    border: #7FC884 solid;
+    margin-left: 10px;
 }
 
 .contenu-ligne2{
     display: block;
     width: 30vw;
-    border: #7FC884 solid;
     margin-top: 10vh;
     margin-left: 2vw;
     justify-content: left;
@@ -172,7 +164,6 @@
     display: flex;
     width: 100%;
     height: auto;
-    border: #7FC884 solid;
     margin-top: 50px;
     background: #F9F8F8;
 }
@@ -215,7 +206,6 @@
     display: flex;
     margin-top: 15px;
     justify-content: space-evenly;
-    border: #7FC884 solid;
 }
 
 .bloc-text-alignement-ligne3{
@@ -223,9 +213,9 @@
     border: #274C5B solid;
 }
 
-texte1-alignement-ligne3{
+.texte1-alignement-ligne3{
     color: #274C5B;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 .texte2-alignement-ligne3{
@@ -255,6 +245,110 @@ texte1-alignement-ligne3{
 
 /*=========================================LiGNE4=============================================*/
 
+.ligne4{
+    display: flex;
+    width: fill;
+    height: 100vh;
+    margin-top: 100px;
+}
 
+.image-gauche-ligne4{
+    flex: 1;
+    height: 100vh;
+    background-image:url("Images1/Photo (5).png") ;
+    background-size: cover;
+}
 
+.image-droite-ligne4{
+    flex: 1;
+    height: 100vh;
+    background-image:url("Images1/Photo (6).png") ;
+    background-size: cover;
 
+}
+
+.bloc-centre-ligne4{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    background-color: white;
+    border-image-source: url("Images1/Line.png");
+    border-bottom: solid;
+}
+
+.texte1-ligne4{
+    color: #7FC884;
+    font-style: italic;
+    font-size-adjust: auto;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.texte2-ligne4{
+    color: #274C5B;
+    font-style: normal;
+    font-size-adjust: auto;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.image2-ligne4{
+    text-align: center;
+}
+
+.texte3-ligne4{
+    color: #274C5B;
+    font-style: normal;
+    font-size-adjust: auto;
+    text-align: center;
+}
+
+.texte4-ligne4{
+    color: #274C5B;
+    font-style: normal;
+    font-size-adjust: auto;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.texte5-ligne4{
+    color: #274C5B;
+    font-size-adjust: auto;
+    text-align: center;
+}
+
+.points{
+    color: #274C5B;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.bas-ligne4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cercle {
+  width: 8.2vw;
+  height: 15.2vh;
+  background: #F1F1F1;
+  border-radius: 50%;
+    border: #7EB693 solid;
+    text-align: center;
+    padding:20px ;
+    border-spacing: 5px;
+
+}
+
+.texte1-cercle-ligne4{
+    font-size: xxx-large;
+    color: #274C5B;
+    font-size-adjust: inherit;
+    justify-content: center;
+}
+
+.texte2-cercle-ligne4{
+    color: #274C5B;
+}
