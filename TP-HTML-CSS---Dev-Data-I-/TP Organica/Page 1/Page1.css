@@ -370,7 +370,6 @@ body {
     background-repeat: no-repeat;
     padding-top: 10vh;
     justify-content: right;
-    border: #061C3D solid;
 }
 
 .contenu-ligne5{
@@ -519,14 +518,18 @@ input:focus {
 /*=====================================================footer=========================================================*/
 
 .footer{
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
+    gap: 2vw;
 }
 
 
 .gauche-footer {
   margin-top: 50px;
-  text-align: center;
+  text-align: right;
+    width: 30vw;
+      height: 40vh;
 }
 
 .gauche-footer h2 {
@@ -557,35 +560,37 @@ input:focus {
 }
 
 .droite-footer {
-  background-color: #f2f2f2;
-  height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    width: 30vw;
+  height: auto;
   padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    border-left: #B4A42C solid;
 }
 
-.icone-footer {
-  background-image: url("Images1/Logo.png");
-  background-size: contain;
-  width: 30px;
-  height: 30px;
-}
+.bloc-logo-footer {
+    display: flex;
+      width: 30vw;
+      height: 10vh;
+    gap: 1rem;
+    justify-content: center;
 
+}
 .texte1-droite-footer {
+    padding-top: 2vh;
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: xx-large;
   font-weight: bold;
   color: #333;
 }
 
-.sous-titre-droite-footer {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  color: #666;
-  margin-top: 5px;
+.texte2-droite-footer {
+      width: 30vw;
+      height: 20vh;
+      background-image: url("Images1/Content.png");
 }
+
 
 
 
