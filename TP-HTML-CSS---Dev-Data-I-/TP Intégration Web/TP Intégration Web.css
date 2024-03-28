@@ -495,9 +495,10 @@ body {
 
 
 @media screen and (max-width: 768px) {
-    .
+    .ligne5{
+        flex-direction: column;
+    }
   .image-en-ligne5 {
-    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 50px;
   }
@@ -506,22 +507,21 @@ body {
     width: fill;
       height: fill;
     margin: 5px auto;
-      background-image: url("UI Block/Project Photo.jpg");
-      background-size: cover;
+
   }
 
   .image4{
     width: fill;
       height: fill;
-    margin: 5px auto;
-      background-image: url("UI Block/Project Photo2.jpg");
+      margin: 5px auto;
+
   }
 
   .image5{
       width: fill;
       height: fill;
-    margin: 5px auto;
-      background-image: url("UI Block/Project Photo3.jpg");
+      margin: 5px auto;
+
   }
 
   .box4 {
@@ -566,6 +566,7 @@ body {
 .imaged {
     width: 30%;
     background-image: url("UI Block/Photo.jpg");
+    background-repeat: no-repeat;
 }
 
 .titre3 {
@@ -633,9 +634,10 @@ body {
     width: 100%;
     height: 424px;
     background-image: url("UI Block/Photo.png");
-    background-size: contain;
+    background-size: cover;
     border: #0D64E5 solid;
     background-color: #7FC884;
+    background-repeat: no-repeat;
 }
 
 .image7{
@@ -737,13 +739,20 @@ body {
     text-align: center;
     background-size: cover;
     width: 10%;
-    border: #7EACF2 solid;
 }
 
-@media only screen and (min-width: 600px) {
+@media  screen and (max-width: 780px) {
+
   .texte5 h1 {
+      flex: 1;
     font-size: 2.5em;
   }
+  .image10{
+      flex: 1;
+    text-align: center;
+    width:5%;
+      rotate: 90deg;
+}
 }
 
 /*-----------------------Fin Ligne 8------------------------- */
@@ -762,9 +771,10 @@ body {
 }
 
 .image11 {
-    width: 38%;
-    height: 536px;
+    width: 50%;
+    height: 30vw;
     background-image: url("UI Block/902.png");
+    background-size: cover;
 }
 
 .block-texte9 {
@@ -805,12 +815,14 @@ body {
 
 
 /* Media queries pour les écrans de petite taille */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .ligne9{
         flex-direction: column;
     }
     .image11 {
-        width: 10%;
+        width:100%;
+        height: 10vw;
+        background-size: cover;
     }
 
     .titre9 {

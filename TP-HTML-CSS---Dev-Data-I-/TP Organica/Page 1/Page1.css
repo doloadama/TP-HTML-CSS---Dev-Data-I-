@@ -1,0 +1,260 @@
+.conteneur-principal{
+    display: block;
+    font-family: Roboto;
+    border: #7FC884 solid;
+}
+
+/*Barre de Menu*/
+.en-tete{
+    display: flex;
+    width: 95%;
+    height: auto;
+    border: #7FC884 solid;
+    margin: auto;
+}
+
+.Menu {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    padding: 20px 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2vw;
+    color: #274C5B;
+    border: #7FC884 solid;
+}
+
+.logo{
+    flex: 1;
+    display: flex;
+    margin: auto;
+    border: #0D64E5 solid;
+    justify-content: normal;
+}
+
+.nom{
+    font-size: 50px;
+    color: #274C5B;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Roboto;
+}
+
+/*=======================================Ligne1=======================================*/
+
+.ligne1{
+    width: 100%;
+    height: 898px;
+    top: 204px;
+    border: #7FC884 solid;
+    margin-top: 50px;
+}
+
+.banniere{
+    width: 100%;
+    height: 100%;
+    background-image: url("Images1/Photo (3).png");
+    background-position: right;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+.contenu-ligne1{
+    display: block;
+    width: 30vw;
+    height: auto;
+    border: #7FC884 solid;
+    margin-top: 30vh;
+    margin-left: 7vw;
+    justify-content: left;
+    float: left;
+}
+
+.texte1-ligne1{
+    font-style: italic;
+    color: #68A47F;
+    font-size: xx-large;
+}
+
+.texte2-ligne1{
+    font-style: normal;
+    color: #274C5B;
+    font-size: 4vw;
+}
+
+.bouton-ligne1{
+    display: flex;
+    background-color: #EFD372;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.texte-bouton{
+    color: #68A47F;
+    font-size: x-large;
+}
+
+.fleche{
+    background-color: #68A47F;
+    font-size: medium;
+    border-radius: 100%;
+    color: white;
+}
+
+
+/*==============================================================Ligne2==========================================================*/
+
+.ligne2{
+    display: flex;
+    width: 1400;
+    height: 367;
+    border: #7FC884 solid;
+    margin: 150px;
+    justify-content: space-evenly;
+}
+
+.bloc1-ligne2{
+    border-radius: 10%;
+    width: 682,24;
+    height: 367;
+    background-image: url("Images1/background2.jpg");
+    background-size: cover;
+    border: #7FC884 solid;
+}
+
+.bloc2-ligne2{
+    border-radius: 10%;
+    width: 682,24;
+    height: 367;
+    background-image: url("Images1/background3.jpg");
+    background-size: cover;
+    border: #7FC884 solid;
+}
+
+.contenu-ligne2{
+    display: block;
+    width: 30vw;
+    border: #7FC884 solid;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    justify-content: left;
+    float: right;
+}
+
+.texte1g-ligne2{
+    font-style: italic;
+    color: white;
+    font-size: xx-large;
+}
+
+.texte2g-ligne2{
+    font-style: normal;
+    color: white;
+    font-size: 3vw;
+}
+
+.texte1d-ligne2{
+    font-style: italic;
+    color: #68A47F;
+    font-size: xx-large;
+}
+
+.texte2d-ligne2{
+    font-style: normal;
+    color: #274C5B;
+    font-size: 3vw;
+}
+
+/*====================================================================ligne3===============================================================*/
+
+.ligne3{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: #7FC884 solid;
+    margin-top: 50px;
+    background: #F9F8F8;
+}
+
+.image-ligne3{
+    width: 50%;
+    height: 867px;
+    top: 1900px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("Images1/Photo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contenu-ligne3{
+    display: block;
+    justify-content: center;
+}
+
+.texte1-ligne3{
+    font-style: italic;
+    color: #7FC884;
+    font-size: xxx-large;
+}
+
+.texte2-ligne3{
+    color: #274C5B;
+    font-size: 5vw;
+    font-family: Roboto;
+}
+
+.texte3-ligne3{
+    color: #274C5B;
+    font-size: x-large;
+}
+
+.alignement-ligne3{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    border: #7FC884 solid;
+}
+
+.bloc-text-alignement-ligne3{
+    display: block;
+    border: #274C5B solid;
+}
+
+texte1-alignement-ligne3{
+    color: #274C5B;
+    font-size: 5vw;
+}
+
+.texte2-alignement-ligne3{
+    color: #274C5B;
+}
+
+.bouton-ligne3{
+    display: flex;
+    background-color: #274C5B;
+    margin-top: 20px;
+    width: 20vw;
+    height: 5vw;
+    border-radius: 10%;
+}
+
+.texte-bouton3{
+    color: white;
+    font-size: x-large;
+}
+
+.fleche2{
+    background-color: #68A47F;
+    font-size: large;
+    border-radius: 50%;
+    color: white;
+}
+
+/*=========================================LiGNE4=============================================*/
+
+
+
+
