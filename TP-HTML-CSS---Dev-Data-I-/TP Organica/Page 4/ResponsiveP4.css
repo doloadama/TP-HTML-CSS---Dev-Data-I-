@@ -1,0 +1,81 @@
+/*=====================HEADER===================*/
+@media screen and (max-width: 600px){
+    .en-tete {
+    flex-direction: column;
+    }
+
+  .logo {
+    font-size: 10px;
+    color: #000;
+  }
+
+  .menu {
+    flex-direction: column;
+    display: none;
+  }
+
+  .menu a {
+    margin-bottom: 10px;
+  }
+}
+
+/*=====================Foot===================*/
+
+@media screen and (max-width: 600px){
+    .texte-image-ligne7 {
+        width: 40%;
+        display: block;
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bolder;
+    }
+
+
+
+}
+
+/*=====================Footer===================*/
+
+@media screen and (max-width: 600px){
+
+.texte1-droite-footer {
+    font-size: large;
+
+}
+
+.texte2-droite-footer {
+    font-size: xx-large;
+}
+
+.cercle-footer-Insta {
+    width: 3vw;
+    height: 4vh;
+}
+
+.cercle-footer-Fb {
+    width: 3vw;
+    height: 4vh;
+}
+
+.cercle-footer-Twitter {
+    width: 3vw;
+    height: 4vh;
+}
+
+.cercle-footer-Pinterest {
+    width: 3vw;
+    height: 4vh;
+}
+
+.bloc-icone-droite-footer{
+    display: flex;
+    width: 30vw;
+    height: 20vh;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 5vh;
+}
+
+}
