@@ -5,29 +5,37 @@ body {
 .conteneur-principal{
     display: block;
     font-family: Roboto, serif;
+    flex-wrap: wrap;
 }
 
 /*Barre de Menu*/
 .en-tete{
     display: flex;
-    width: 95%;
+    width: 80%;
     height: auto;
     margin: auto;
+    padding-top: 5vh;
 }
 
 .Menu {
     display: flex;
     flex: 1;
-    justify-content: right;
-    margin-top: auto;
-    margin-bottom: auto;
+    text-align: center;
+    justify-content: space-around;
+    padding: 17px 17px;
     font-size: 1vw;
     color: #274C5B;
-    gap: 2vw;
 }
 
+.menu a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+
 .logo{
-    flex: 1;
+    flex: 2;
     display: flex;
     margin: auto;
     justify-content: normal;
@@ -42,6 +50,7 @@ body {
     font-family: Roboto sans-serif;
 }
 
+
 /*=======================================Ligne1=======================================*/
 
 .ligne1{
@@ -49,15 +58,16 @@ body {
     height: 898px;
     top: 204px;
     margin-top: 50px;
+    background-color: #F9F8F8;
 }
 
 .banniere{
     width: 100%;
     height: 100%;
-    background-image: url("Images1/Photo (3).png");
-    background-position: right;
-    background-position-x: right;
+    background-image: url("Images1/Group 18.png");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contenu-ligne1{
@@ -65,7 +75,7 @@ body {
     width: 30vw;
     height: auto;
     margin-top: 30vh;
-    margin-left: 7vw;
+    margin-left: 14vw;
     justify-content: left;
     float: left;
 }
@@ -82,23 +92,24 @@ body {
     font-size: 4vw;
 }
 
-.bouton-ligne1{
-    display: flex;
-    background-color: #EFD372;
-    margin: auto;
-    justify-content: space-evenly;
-}
+.bouton-image-ligne1{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 17vw;
+    transition: all 0.3s ease;
+    height: 17vh;
+    background-image: url("Images1/Button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 
-.texte-bouton{
-    color: #68A47F;
-    font-size: x-large;
-}
-
-.fleche{
-    background-color: #68A47F;
-    font-size: medium;
-    border-radius: 100%;
-    color: white;
+.bouton-text-ligne1-text {
+      display: block;
+      text-align: center;
+      line-height: 20px;
+    }
 }
 
 
@@ -119,6 +130,7 @@ body {
     background-image: url("Images1/Image.jpg");
     background-size: cover;
     margin-right: 10px;
+    justify-content: start;
 }
 
 .bloc2-ligne2{
@@ -128,6 +140,7 @@ body {
     background-image: url("Images1/Image (1).png");
     background-size: cover;
     margin-left: 10px;
+    justify-content: start;
 }
 
 .contenu-ligne2{
@@ -163,6 +176,7 @@ body {
     font-size: 3vw;
 }
 
+
 /*====================================================================ligne3===============================================================*/
 
 .ligne3{
@@ -171,18 +185,13 @@ body {
     height: auto;
     margin-top: 50px;
     background: #F9F8F8;
+    flex-wrap: wrap;
 }
 
 .image-ligne3{
     width: 50%;
     height: 867px;
-    top: 1900px;
-    left: 100px;
-    gap: 0;
-    opacity: 0px;
-    background-image: url("Images1/Photo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 
 .contenu-ligne3{
@@ -210,12 +219,12 @@ body {
 .alignement-ligne3{
     display: flex;
     margin-top: 15px;
-    justify-content: space-evenly;
+    align-content: start;
+    gap: 1vw;
 }
 
 .bloc-text-alignement-ligne3{
     display: block;
-    border: #274C5B solid;
 }
 
 .texte1-alignement-ligne3{
@@ -227,25 +236,24 @@ body {
     color: #274C5B;
 }
 
-.bouton-ligne3{
-    display: flex;
-    background-color: #274C5B;
-    margin-top: 20px;
-    width: 20vw;
-    height: 5vw;
-    border-radius: 10%;
-}
+.bouton-image-ligne3{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 15vw;
+    transition: all 0.3s ease;
+    height: 11vh;
+    background-image: url("Images1/Button (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
 
-.texte-bouton3{
-    color: white;
-    font-size: x-large;
-}
-
-.fleche2{
-    background-color: #68A47F;
-    font-size: large;
-    border-radius: 50%;
-    color: white;
+.bouton-text-ligne3-text {
+      display: block;
+      text-align: center;
+      line-height: 20px;
+    }
 }
 
 /*=========================================LiGNE4=============================================*/
@@ -333,14 +341,18 @@ body {
 .bas-ligne4{
     display: flex;
     align-content: center;
+    flex-wrap: wrap;
 }
 
-.cercle {
-  width: 8.2vw;
-  height: 15.2vh;
+.cercle-ligne4 {
+    display: flex;
+    flex-direction: column;
+  width: 211px;
+  height: 211px;
   background: #F1F1F1;
   border-radius: 50%;
     border: 3px #7EB693 solid;
+    justify-content: center;
     text-align: center;
     padding:5px ;
     background-clip: content-box;
@@ -352,11 +364,13 @@ body {
     color: #274C5B;
     font-size-adjust: auto;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .texte2-cercle-ligne4{
     color: #274C5B;
     font-size-adjust:auto;
+    flex-wrap: wrap;
 }
 
 /*=====================================================Ligne5=========================================================*/
@@ -452,12 +466,13 @@ body {
 .ligne7 {
   display: flex;
     justify-content: center;
+    margin-top: 10vh;
 }
 
 .bloc-image-ligne7 {
       display: flex;
       width: 80%;
-      height: 30vh;
+      height: 35vh;
       background-image: url("Images1/Photo-20.jpg");
       background-repeat: no-repeat;
       background-position: center;
@@ -550,16 +565,6 @@ input:focus {
       margin-right: 20px;
 }
 
-.pied-footer {
-      text-align: center;
-      margin-top: 50px;
-      padding-top: 5vh;
-      font-size: 1rem;
-      margin-bottom: 5vh;
-      border-image: url("Images1/Line.png") 20 round;
-      border-top: #B4A42C solid;
-}
-
 .droite-footer {
     display: flex;
     flex-direction: column;
@@ -594,6 +599,74 @@ input:focus {
     text-align: center;
 }
 
+.cercle-footer-Insta {
+    display: flex;
+    flex-direction: column;
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    border: 3px #7EB693 solid;
+    justify-content: center;
+    text-align: center;
+    padding:5px ;
+    background-clip: content-box;
+    margin: auto;
+    background-image: url("Images1/Insta.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cercle-footer-Fb {
+    display: flex;
+    flex-direction: column;
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    border: 3px #7EB693 solid;
+    justify-content: center;
+    text-align: center;
+    padding:5px ;
+    background-clip: content-box;
+    margin: auto;
+    background-image: url("Images1/Fb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cercle-footer-Twitter {
+    display: flex;
+    flex-direction: column;
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    border: 3px #7EB693 solid;
+    justify-content: center;
+    text-align: center;
+    padding:5px ;
+    background-clip: content-box;
+    margin: auto;
+    background-image: url("Images1/Twiter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cercle-footer-Pinterest {
+    display: flex;
+    flex-direction: column;
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    border: 3px #7EB693 solid;
+    justify-content: center;
+    text-align: center;
+    padding:5px ;
+    background-clip: content-box;
+    margin: auto;
+    background-image: url("Images1/Pintrest.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .bloc-icone-droite-footer{
     display: flex;
     width: 30vw;
@@ -602,3 +675,15 @@ input:focus {
     gap: 1rem;
     padding-top: 5vh;
 }
+
+.pied-footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 5vh;
+      font-size: 1rem;
+      margin-bottom: 5vh;
+      border-image: url("Images1/Line.png") 20 round;
+      border-top: #B4A42C solid;
+}
+
+
