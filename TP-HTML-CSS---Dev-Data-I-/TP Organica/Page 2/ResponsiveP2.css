@@ -19,63 +19,262 @@
   }
 }
 
-/*=====================Foot===================*/
+/*===================Ligne1=======================*/
 
 @media screen and (max-width: 600px){
-    .texte-image-ligne7 {
-        width: 40%;
+    .titre-ligne1{
+        font-size: 50px;
+    }
+
+}
+
+/*===================Ligne2=======================*/
+
+@media screen and (max-width: 600px){
+
+    .bloc-bas-ligne3P2 {
+    display: flex;
+        flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vh;
+    height: 25%;
+}
+
+    .grand-titreP2{
+        font-size: 15px;
+    }
+
+    .texteP2 {
+    font-size: medium;
+    }
+
+    .image-ligne2p2{
+    width: 50%;
+    background-image: url("Images2/2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+
+    .texte2P2 {
+    display: block;
+    color: #274C5B;
+    font-size: 10px;
+    line-height: 0;
+    font-weight: 600;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .grand-titreP2 {
+        font-size: 15px;
+    }
+
+    .texteP2 {
+        font-size: medium;
+    }
+
+    .texte2P2 {
         display: block;
-        font-size: xx-large;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-weight: bolder;
+        color: #274C5B;
+        font-size: 10px;
+        line-height: 0;
+        font-weight: 600;
+    }
+
+
+    /*===================Ligne3=======================*/
+    @media screen and (max-width: 600px) {
+        .bloc-bas-ligne3P2 {
+            display: flex;
+            justify-content: center;
+            gap: 0px;
+            height: 25%;
+        }
+
+        .cadre-icone-ligne3P2 {
+            display: flex;
+            flex-direction: column;
+            gap: 0vh;
+            border-radius: 20px;
+            height: 80%;
+            width: 25vh;
+            background-color: white;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 1200px) {
+        @media screen and (max-width: 600px) {
+            .bloc-bas-ligne3P2 {
+                display: flex;
+                justify-content: center;
+                gap: 0px;
+                height: 25%;
+            }
+
+            .cadre-icone-ligne3P2 {
+                display: flex;
+                flex-direction: column;
+                gap: 0vh;
+                border-radius: 20px;
+                height: 80%;
+                width: 25vh;
+                background-color: white;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    }
+
+    /*==========================================================LIGNE4==================================================================*/
+    @media screen and (max-width: 600px) {
+        .bloc-photo-ligne4P2 {
+            display: flex;
+            gap: 0vh;
+            justify-content: center;
+        }
+
     }
 
 
 
-}
 
-/*=====================Footer===================*/
 
-@media screen and (max-width: 600px){
 
-.texte1-droite-footer {
-    font-size: large;
+    /*======================================Ligne5==============================*/
+    @media screen and (max-width: 600px) {
+        .Produits {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-}
+        .bloc-image-ligne5P2 {
+            width: 5vh;
+            height: 5vh;
+            border-radius: 10px;
+        }
 
-.texte2-droite-footer {
-    font-size: xx-large;
-}
+        .Epices {
+            border-radius: 20px;
+            width: 10vh;
+            height: 30vh;
+            background-position: center;
+            background-image: url("Images2/7.png");
+        }
 
-.cercle-footer-Insta {
-    width: 3vw;
-    height: 4vh;
-}
+        .Noix {
+            border-radius: 20px;
+            width: 10vh;
+            height: 30vh;
+            background-position: center;
+            background-image: url("Images2/8.png");
+        }
 
-.cercle-footer-Fb {
-    width: 3vw;
-    height: 4vh;
-}
+        .Fruits {
+            border-radius: 20px;
+            width: 10vh;
+            height: 30vh;
+            background-position: center;
+            background-image: url("Images2/9.png");
+        }
 
-.cercle-footer-Twitter {
-    width: 3vw;
-    height: 4vh;
-}
+        .Legume {
+            border-radius: 20px;
+            width: 10vh;
+            height: 30vh;
+            background-position: center;
+            background-image: url("Images2/10.png");
+        }
 
-.cercle-footer-Pinterest {
-    width: 3vw;
-    height: 4vh;
-}
+        .texte-image-ligne5P2 {
+            text-align: start;
+            color: white;
+            font-size: 1vh;
+        }
+    }
 
-.bloc-icone-droite-footer{
-    display: flex;
-    width: 30vw;
-    height: 20vh;
-    justify-content: center;
-    gap: 1rem;
-    padding-top: 5vh;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*=====================Foot===================*/
+    @media screen and (max-width: 600px) {
+        .texte-image-ligne7 {
+            width: 40%;
+            display: block;
+            font-size: xx-large;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bolder;
+        }
+
+
+    }
+
+    /*=====================Footer===================*/
+    @media screen and (max-width: 600px) {
+
+        .texte1-droite-footer {
+            font-size: large;
+
+        }
+
+        .texte2-droite-footer {
+            font-size: xx-large;
+        }
+
+        .cercle-footer-Insta {
+            width: 3vw;
+            height: 4vh;
+        }
+
+        .cercle-footer-Fb {
+            width: 3vw;
+            height: 4vh;
+        }
+
+        .cercle-footer-Twitter {
+            width: 3vw;
+            height: 4vh;
+        }
+
+        .cercle-footer-Pinterest {
+            width: 3vw;
+            height: 4vh;
+        }
+
+        .bloc-icone-droite-footer {
+            display: flex;
+            width: 30vw;
+            height: 20vh;
+            justify-content: center;
+            gap: 1rem;
+            padding-top: 5vh;
+        }
+
+    }
 }

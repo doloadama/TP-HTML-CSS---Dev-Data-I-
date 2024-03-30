@@ -1,0 +1,375 @@
+/*=====================================================Header=========================================================*/
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.conteneur-principal{
+    display: block;
+    font-family: Roboto, serif;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Barre de Menu*/
+.en-tete{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 5vh;
+}
+
+.Menu {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: space-around;
+    padding: 17px 17px;
+    font-size: 1vw;
+    color: #274C5B;
+}
+
+.menu a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+
+.logo{
+    flex: 2;
+    display: flex;
+    margin: auto;
+    justify-content: normal;
+    gap: 0.5vw;
+}
+
+.nom{
+    font-size: 40px;
+    color: #274C5B;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Roboto sans-serif;
+}
+
+/*=====================================================LIGNE1=========================================================*/
+
+.ligne1P3{
+    width: 100%;
+    height: 450px;
+    background-image: url("Images3/Banner Image.png");
+    background-size: cover;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.titre-ligne1{
+    font-size: 70px;
+    line-height: 82,03px;
+    font-weight: 800;
+    padding: 150px 200px;
+    color: #274C5B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================================================foot=========================================================*/
+
+.ligne7 {
+  display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.bloc-image-ligne7 {
+      display: flex;
+      width: 80%;
+      height: 35vh;
+      background-image: url("Images3/Photo-20.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: right;
+      align-items: center;
+      border-radius: 20px;
+}
+
+.texte-image-ligne7 {
+    width: 40%;
+    display: block;
+    font-size: xxx-large;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.entree-ligne7 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+      border: 1px solid #0D64E5;
+      margin: auto;
+}
+
+.bouton-ligne7 {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3rem;
+      border-radius: 10px;
+      background-color: #274C5B;
+      color: white;
+      cursor: pointer;
+}
+
+.bouton-ligne7:hover {
+      background-color: #0D64E5;
+}
+
+input {
+      width: 80%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+}
+
+input:focus {
+      outline: none;
+      box-shadow: 0 0 2px 1px rgba(0, 120, 255, 0.5);
+}
+/*=====================================================footer=========================================================*/
+
+.footer{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+
+.gauche-footer {
+      margin-top: 50px;
+      text-align: right;
+      width: 30vw;
+      height: 40vh;
+    padding-right: 5vw;
+}
+
+.gauche-footer h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+}
+
+.gauche-footer p {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+}
+
+.gauche-footer a {
+      text-decoration: none;
+      color: #8CB5F3;
+      margin-right: 20px;
+}
+
+.droite-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    width: 30vw;
+    height: auto;
+    padding: 10px;
+    border-left: #B4A42C solid;
+}
+
+.bloc-logo-footer {
+    display: flex;
+    width: 30vw;
+    height: 10vh;
+    gap: 1rem;
+    justify-content: center;
+
+}
+.texte1-droite-footer {
+    padding-top: 2vh;
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #333;
+}
+
+.texte2-droite-footer {
+    width: 30vw;
+    height: 10vh;
+    font-size: xx-large;
+    align-content: center;
+    text-align: center;
+}
+
+.cercle-footer-Insta {
+    display: flex;
+    flex-direction: column;
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    border: 3px #7EB693 solid;
+    justify-content: center;
+    text-align: center;
+    padding:5px ;
+    background-clip: content-box;
+    margin: auto;
+    background-image: url("Images3/Insta.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cercle-footer-Fb {
+    display: flex;
+    flex-direction: column;
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    border: 3px #7EB693 solid;
+    justify-content: center;
+    text-align: center;
+    padding:5px ;
+    background-clip: content-box;
+    margin: auto;
+    background-image: url("Images3/Fb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cercle-footer-Twitter {
+    display: flex;
+    flex-direction: column;
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    border: 3px #7EB693 solid;
+    justify-content: center;
+    text-align: center;
+    padding:5px ;
+    background-clip: content-box;
+    margin: auto;
+    background-image: url("Images3/Vector.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cercle-footer-Pinterest {
+    display: flex;
+    flex-direction: column;
+    width: 3vw;
+    height: 7vh;
+    border-radius: 50%;
+    border: 3px #7EB693 solid;
+    justify-content: center;
+    text-align: center;
+    padding:5px ;
+    background-clip: content-box;
+    margin: auto;
+    background-image: url("Images3/Pintrest.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloc-icone-droite-footer{
+    display: flex;
+    width: 30vw;
+    height: 20vh;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 5vh;
+}
+
+.pied-footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 5vh;
+      font-size: 1rem;
+      margin-bottom: 5vh;
+      border-image: url("TP Organica/Page 1/Images1/Line.png") 20 round;
+      border-top: #B4A42C solid;
+}
